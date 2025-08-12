@@ -52,7 +52,6 @@ public class Library extends Books {
                 books[i].setIssued(true);
                 System.out.println("Book issued successfully to User ID: " + userId);
                 return;
-              //  sc.nextInt();
             }
             
         } System.out.println("Book not available or already issued.");
