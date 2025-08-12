@@ -7,7 +7,6 @@ public class Library extends Books {
     private int bookCount;
 
    // public Library(int book_Id, String title, String author) {
-   // super(book_Id, "title", "author");
     public Library() {
         super(0, "", "");
         this.books = new Books[100];
