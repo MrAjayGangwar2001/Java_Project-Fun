@@ -25,9 +25,6 @@ public class Library extends Books {
             setAuthor(author);
             setIssued(false);
             displayBookInfo();
-            // System.out.println("Book ID: " + Book_Id);
-            // System.out.println("Title: " + title);
-            // System.out.println("Author: " + author);
             System.out.println("Book added successfully.");
         } else {
             System.out.println("Book list is full. Cannot add more books.");
