@@ -89,7 +89,6 @@ public class Library extends Books {
         if (bookCount == 0) {
             System.out.println("No books available in The Library.");
         } else {
-            // System.out.println("Available Books are :");
             for (int i = 0; i < bookCount; i++) {
                 books[i].displayBookInfo();
                 System.out.println("---------------------");
