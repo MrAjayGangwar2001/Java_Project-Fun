@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
+// This is Library . In this Library we have books and we can add, delete, search and display books
+
 public class Library extends Books {
     Scanner sc = new Scanner(System.in);
     private Books[] books;
     private User[] users;
     private int bookCount;
-
 
     public Library() {
         super(0, "", "");
@@ -36,10 +37,11 @@ public class Library extends Books {
             if (books[i].getTitle().equalsIgnoreCase(titleOrAuthor)
                     || books[i].getAuthor().equalsIgnoreCase(titleOrAuthor)) {
                 books[i].displayBookInfo();
-                System.out.println("The Book " +titleOrAuthor + " is Available in the Library");
+                System.out.println("The Book " + titleOrAuthor + " is Available in the Library");
                 return;
             }
-        } System.out.println("The book is Not Available in the Library");
+        }
+        System.out.println("The book is Not Available in the Library");
     }
 
     public void IssueBook(int bookId, int userId) {
@@ -49,8 +51,9 @@ public class Library extends Books {
                 System.out.println("Book issued successfully to User ID: " + userId);
                 return;
             }
-            
-        } System.out.println("Book not available or already issued.");
+
+        }
+        System.out.println("Book not available or already issued.");
     }
 
     public void ReturnBook(int bookId) {
