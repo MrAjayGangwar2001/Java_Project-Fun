@@ -36,10 +36,10 @@ public class Library extends Books {
             if (books[i].getTitle().equalsIgnoreCase(titleOrAuthor)
                     || books[i].getAuthor().equalsIgnoreCase(titleOrAuthor)) {
                 books[i].displayBookInfo();
-                System.out.println("The Book " +titleOrAuthor + " are Available in the Library");
+                System.out.println("The Book " +titleOrAuthor + " is Available in the Library");
                 return;
             }
-        } System.out.println("The book Not Available in the Library");
+        } System.out.println("The book is Not Available in the Library");
     }
 
     public void IssueBook(int bookId, int userId) {
