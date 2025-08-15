@@ -1,3 +1,6 @@
+// This is user class Where All User related data is stored
+// All the User Data will be Stored by Using Encapsulation
+
 public class User {
 
     private String UserName;
