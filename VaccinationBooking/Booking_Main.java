@@ -35,7 +35,8 @@ public class Booking_Main {
             System.out.println("Thank you for using the Covid Vaccination Booking System! Stay Safe.");
             sc.nextLine();
             System.out.println("Do you want to book/process another booking? (yes/no): ");
-            response = sc.nextLine();        }
+            response = sc.nextLine();
+        }
 
     }
 }
